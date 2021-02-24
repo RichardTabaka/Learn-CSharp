@@ -1,0 +1,7 @@
+C:\MSSA\CSC 205 C Sharp\Programs\Homework\Week 4 Assignment\bin\Debug\Week 4 Assignment.exe.config
+C:\MSSA\CSC 205 C Sharp\Programs\Homework\Week 4 Assignment\bin\Debug\Week 4 Assignment.exe
+C:\MSSA\CSC 205 C Sharp\Programs\Homework\Week 4 Assignment\bin\Debug\Week 4 Assignment.pdb
+C:\MSSA\CSC 205 C Sharp\Programs\Homework\Week 4 Assignment\obj\Debug\Week 4 Assignment.csprojAssemblyReference.cache
+C:\MSSA\CSC 205 C Sharp\Programs\Homework\Week 4 Assignment\obj\Debug\Week 4 Assignment.csproj.CoreCompileInputs.cache
+C:\MSSA\CSC 205 C Sharp\Programs\Homework\Week 4 Assignment\obj\Debug\Week 4 Assignment.exe
+C:\MSSA\CSC 205 C Sharp\Programs\Homework\Week 4 Assignment\obj\Debug\Week 4 Assignment.pdb

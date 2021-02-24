@@ -1,0 +1,7 @@
+C:\MSSA\CSC 205 C Sharp\Programs\Homework\Time Assignment\Time\bin\Debug\Time.exe.config
+C:\MSSA\CSC 205 C Sharp\Programs\Homework\Time Assignment\Time\bin\Debug\Time.exe
+C:\MSSA\CSC 205 C Sharp\Programs\Homework\Time Assignment\Time\bin\Debug\Time.pdb
+C:\MSSA\CSC 205 C Sharp\Programs\Homework\Time Assignment\Time\obj\Debug\Time.csprojAssemblyReference.cache
+C:\MSSA\CSC 205 C Sharp\Programs\Homework\Time Assignment\Time\obj\Debug\Time.csproj.CoreCompileInputs.cache
+C:\MSSA\CSC 205 C Sharp\Programs\Homework\Time Assignment\Time\obj\Debug\Time.exe
+C:\MSSA\CSC 205 C Sharp\Programs\Homework\Time Assignment\Time\obj\Debug\Time.pdb
