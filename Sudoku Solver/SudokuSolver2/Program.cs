@@ -20,7 +20,8 @@ namespace SudokuSolver2
 
             string inputFile = Console.ReadLine();
             Puzzle inputPuzzle = new Puzzle(inputFile);
-            Console.Write($"\n\tIt looks like the file you chose was, '{inputFile}'.");
+            Console.Clear();
+            Console.WriteLine($"\n\tIt looks like the file you chose was, '{inputFile}'.");
             PuzzleTester.AllTests(inputPuzzle);
 
             Console.WriteLine(" The puzzle is printed below!\n");
@@ -36,23 +37,25 @@ namespace SudokuSolver2
             // If H is selected you will be prompted for a coordinate to revel. S simply prints the solution to the console
 
             string inp = Console.ReadLine();
+            Console.Clear();
             if (inp == "H")
             {
                 while (inp == "H")
                 {
-                        Console.WriteLine("\n\tWhich Square would you like revealed? Enter your answer in a letter-number format like so: A1\n");
-                        inputPuzzle.PuzzleConsolePrinter();
-                        Console.WriteLine("\n\n\n\n\n\n\n");
-                        string strHintPos = Console.ReadLine();
-                        while (strHintPos.Length != 2)
-                        {
-                            Console.WriteLine("\n\tOops! It looks like the format of your input was invalid! try again!");
-                        }
-                        int[] hintPos = HintPosition(strHintPos);
-                        Console.WriteLine($"\n\tThe number at {strHintPos} is: " + sol.PuzzleCheck()[hintPos[0]][hintPos[1]]);
+                    Console.WriteLine("\n\tWhich Square would you like revealed? Enter your answer in a letter-number format like so: A1\n");
+                    inputPuzzle.PuzzleConsolePrinter();
+                    string strHintPos = Console.ReadLine();
+                    while (strHintPos.Length != 2)
+                    {
+                        Console.WriteLine("\n\tOops! It looks like the format of your input was invalid! try again!");
+                        strHintPos = Console.ReadLine();
+                    }
+                    int[] hintPos = HintPosition(strHintPos);
+                    Console.WriteLine($"\n\tThe number at {strHintPos} is: " + sol.PuzzleCheck()[hintPos[0]][hintPos[1]]);
 
                     Console.WriteLine("\n\tHopefully that hint helped! Enter one of the following:\n\tH: Get another hint\tS: Print the solution to the console\n\tX: decide how you want your solution saved and exit\n\n");
                     inp = Console.ReadLine(); // This line allows you to get multiple hints without restarting the program
+                    Console.Clear();
                 }
             }
             if (inp == "S")
